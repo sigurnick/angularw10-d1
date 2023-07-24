@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+:root{
+    --yellow : rgb(247, 243, 0);
+    --darkRed: #780303;
+    --red: rgb(179, 0, 0);
+    --lightBlue : rgb(141, 221, 255);
+}
+
+*{
+    text-align: center;
+}
+
+
+p{
+    font-size: 1.5em;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.yellow{
+    color: var(--yellow);
+}
+
+.darkRed{
+    color: var(--darkRed);
+}
+
+.red{
+    color: var(--red);
+}
+
+.lightBlue{
+    color: var(--lightBlue);
+}
+
